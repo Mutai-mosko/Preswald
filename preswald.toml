@@ -1,0 +1,22 @@
+[project]
+title = "Sleep Health Dashboard"
+version = "1.0.0"
+port = 8501
+slug = "sleep-health-dashboard"
+entrypoint = "hello.py"
+
+[branding]
+name = "Sleep Health Insights"
+logo = "images/sleepI.jpeg"       
+favicon = "images/sleep.png"  
+primaryColor = "#4B9CD3"              
+
+[data.sleep_data]
+path = "data/Sleep_health_and_lifestyle_dataset.csv"
+format = "csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+preswald run
